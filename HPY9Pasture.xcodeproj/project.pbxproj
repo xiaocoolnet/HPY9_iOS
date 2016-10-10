@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EF4AA863B17A114C8FB23355 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC8F02A3B680CBF3775C17 /* Pods.framework */; };
 		F65D23DD1DAA2D230037026F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65D23DC1DAA2D230037026F /* AppDelegate.swift */; };
-		F65D23DF1DAA2D230037026F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65D23DE1DAA2D230037026F /* ViewController.swift */; };
 		F65D23E41DAA2D230037026F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65D23E31DAA2D230037026F /* Assets.xcassets */; };
 		F65D23E71DAA2D230037026F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65D23E51DAA2D230037026F /* LaunchScreen.storyboard */; };
 		F65D23EF1DAA31C70037026F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F65D23EE1DAA31C70037026F /* Default-568h@2x.png */; };
@@ -46,6 +45,12 @@
 		F6B5D6171DAB468200D2DB0E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6161DAB468200D2DB0E /* QuartzCore.framework */; };
 		F6B5D6191DAB469A00D2DB0E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6181DAB469A00D2DB0E /* libc++.tbd */; };
 		F6B5D6681DAB730900D2DB0E /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6671DAB730900D2DB0E /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F6DDB0471DAB90A300C44814 /* HPYLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DDB0461DAB90A300C44814 /* HPYLoginController.swift */; };
+		F6DDB0491DAB91FF00C44814 /* HPYCommunityCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DDB0481DAB91FF00C44814 /* HPYCommunityCtrler.swift */; };
+		F6DDB04B1DAB92CF00C44814 /* HPYConvenienceCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DDB04A1DAB92CF00C44814 /* HPYConvenienceCtrler.swift */; };
+		F6DDB04D1DAB930F00C44814 /* HPYHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DDB04C1DAB930F00C44814 /* HPYHomeController.swift */; };
+		F6DDB04F1DAB969700C44814 /* HPYMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DDB04E1DAB969700C44814 /* HPYMineController.swift */; };
+		F6DDB0511DAB974300C44814 /* HPYVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DDB0501DAB974300C44814 /* HPYVideoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +58,6 @@
 		AD6CE58FCA79C95874BDE2E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F65D23D91DAA2D230037026F /* HPY9Pasture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPY9Pasture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65D23DC1DAA2D230037026F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F65D23DE1DAA2D230037026F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F65D23E31DAA2D230037026F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F65D23E61DAA2D230037026F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65D23E81DAA2D230037026F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -257,6 +261,12 @@
 		F6B5D6651DAB46DC00D2DB0E /* x509v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
 		F6B5D6671DAB730900D2DB0E /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
 		F6DC8F02A3B680CBF3775C17 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DDB0461DAB90A300C44814 /* HPYLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYLoginController.swift; sourceTree = "<group>"; };
+		F6DDB0481DAB91FF00C44814 /* HPYCommunityCtrler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYCommunityCtrler.swift; sourceTree = "<group>"; };
+		F6DDB04A1DAB92CF00C44814 /* HPYConvenienceCtrler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYConvenienceCtrler.swift; sourceTree = "<group>"; };
+		F6DDB04C1DAB930F00C44814 /* HPYHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYHomeController.swift; sourceTree = "<group>"; };
+		F6DDB04E1DAB969700C44814 /* HPYMineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYMineController.swift; sourceTree = "<group>"; };
+		F6DDB0501DAB974300C44814 /* HPYVideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYVideoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,8 +334,13 @@
 		F65D23DB1DAA2D230037026F /* HPY9Pasture */ = {
 			isa = PBXGroup;
 			children = (
+				F6DDB0361DAB905C00C44814 /* Home */,
+				F6DDB02E1DAB905C00C44814 /* Community */,
+				F6DDB0321DAB905C00C44814 /* Convenience */,
+				F6DDB03A1DAB905C00C44814 /* Mine */,
+				F6DDB03E1DAB905C00C44814 /* VideoHall */,
+				F6DDB0421DAB905C00C44814 /* Wellcome */,
 				F65D23DC1DAA2D230037026F /* AppDelegate.swift */,
-				F65D23DE1DAA2D230037026F /* ViewController.swift */,
 				F6B5D5741DAB343600D2DB0E /* HPYRootController.swift */,
 				F65D23E31DAA2D230037026F /* Assets.xcassets */,
 				F65D23E51DAA2D230037026F /* LaunchScreen.storyboard */,
@@ -602,6 +617,198 @@
 			name = Third_part_lib;
 			sourceTree = "<group>";
 		};
+		F6DDB02E1DAB905C00C44814 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB02F1DAB905C00C44814 /* Controller */,
+				F6DDB0301DAB905C00C44814 /* Model */,
+				F6DDB0311DAB905C00C44814 /* View */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		F6DDB02F1DAB905C00C44814 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB0481DAB91FF00C44814 /* HPYCommunityCtrler.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6DDB0301DAB905C00C44814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6DDB0311DAB905C00C44814 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6DDB0321DAB905C00C44814 /* Convenience */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB0331DAB905C00C44814 /* Controller */,
+				F6DDB0341DAB905C00C44814 /* Model */,
+				F6DDB0351DAB905C00C44814 /* View */,
+			);
+			path = Convenience;
+			sourceTree = "<group>";
+		};
+		F6DDB0331DAB905C00C44814 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB04A1DAB92CF00C44814 /* HPYConvenienceCtrler.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6DDB0341DAB905C00C44814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6DDB0351DAB905C00C44814 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6DDB0361DAB905C00C44814 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB0371DAB905C00C44814 /* Controller */,
+				F6DDB0381DAB905C00C44814 /* Model */,
+				F6DDB0391DAB905C00C44814 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F6DDB0371DAB905C00C44814 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB04C1DAB930F00C44814 /* HPYHomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6DDB0381DAB905C00C44814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6DDB0391DAB905C00C44814 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6DDB03A1DAB905C00C44814 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB03B1DAB905C00C44814 /* Controller */,
+				F6DDB03C1DAB905C00C44814 /* Model */,
+				F6DDB03D1DAB905C00C44814 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F6DDB03B1DAB905C00C44814 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB04E1DAB969700C44814 /* HPYMineController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6DDB03C1DAB905C00C44814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6DDB03D1DAB905C00C44814 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6DDB03E1DAB905C00C44814 /* VideoHall */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB03F1DAB905C00C44814 /* Controller */,
+				F6DDB0401DAB905C00C44814 /* Model */,
+				F6DDB0411DAB905C00C44814 /* View */,
+			);
+			path = VideoHall;
+			sourceTree = "<group>";
+		};
+		F6DDB03F1DAB905C00C44814 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB0501DAB974300C44814 /* HPYVideoController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6DDB0401DAB905C00C44814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6DDB0411DAB905C00C44814 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6DDB0421DAB905C00C44814 /* Wellcome */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB0431DAB905C00C44814 /* Controller */,
+				F6DDB0441DAB905C00C44814 /* Model */,
+				F6DDB0451DAB905C00C44814 /* View */,
+			);
+			path = Wellcome;
+			sourceTree = "<group>";
+		};
+		F6DDB0431DAB905C00C44814 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDB0461DAB90A300C44814 /* HPYLoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6DDB0441DAB905C00C44814 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6DDB0451DAB905C00C44814 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -730,16 +937,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DDB04D1DAB930F00C44814 /* HPYHomeController.swift in Sources */,
 				F6B5D5E71DAB40AB00D2DB0E /* base64.m in Sources */,
 				F6B5D5751DAB343600D2DB0E /* HPYRootController.swift in Sources */,
 				F6B5D5EB1DAB40AB00D2DB0E /* NSDataEx.m in Sources */,
 				F6B5D5EA1DAB40AB00D2DB0E /* MD5DataSigner.m in Sources */,
+				F6DDB0511DAB974300C44814 /* HPYVideoController.swift in Sources */,
 				F6B5D5EE1DAB40AB00D2DB0E /* RSADataVerifier.m in Sources */,
-				F65D23DF1DAA2D230037026F /* ViewController.swift in Sources */,
+				F6DDB0491DAB91FF00C44814 /* HPYCommunityCtrler.swift in Sources */,
+				F6DDB04F1DAB969700C44814 /* HPYMineController.swift in Sources */,
 				F6B5D5E81DAB40AB00D2DB0E /* DataSigner.m in Sources */,
+				F6DDB04B1DAB92CF00C44814 /* HPYConvenienceCtrler.swift in Sources */,
 				F6B5D5ED1DAB40AB00D2DB0E /* RSADataSigner.m in Sources */,
 				F6B5D5EC1DAB40AB00D2DB0E /* openssl_wrapper.m in Sources */,
 				F6B5D5E61DAB40AB00D2DB0E /* Order.m in Sources */,
+				F6DDB0471DAB90A300C44814 /* HPYLoginController.swift in Sources */,
 				F65D23DD1DAA2D230037026F /* AppDelegate.swift in Sources */,
 				F6B5D5E91DAB40AB00D2DB0E /* DataVerifier.m in Sources */,
 			);
