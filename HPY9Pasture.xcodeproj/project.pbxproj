@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EF4AA863B17A114C8FB23355 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC8F02A3B680CBF3775C17 /* Pods.framework */; };
+		F615F6461DAC8B7400C5F7FD /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6451DAC8B7400C5F7FD /* Macro.swift */; };
+		F615F6481DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */; };
+		F615F64A1DACD2E100C5F7FD /* HPYRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6491DACD2E100C5F7FD /* HPYRegisterController.swift */; };
 		F65D23DD1DAA2D230037026F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65D23DC1DAA2D230037026F /* AppDelegate.swift */; };
 		F65D23E41DAA2D230037026F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65D23E31DAA2D230037026F /* Assets.xcassets */; };
 		F65D23E71DAA2D230037026F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65D23E51DAA2D230037026F /* LaunchScreen.storyboard */; };
@@ -56,6 +59,9 @@
 /* Begin PBXFileReference section */
 		12999BDEC094B4968B47DB1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AD6CE58FCA79C95874BDE2E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F615F6451DAC8B7400C5F7FD /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYFgetPasswordCtrler.swift; sourceTree = "<group>"; };
+		F615F6491DACD2E100C5F7FD /* HPYRegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYRegisterController.swift; sourceTree = "<group>"; };
 		F65D23D91DAA2D230037026F /* HPY9Pasture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPY9Pasture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65D23DC1DAA2D230037026F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F65D23E31DAA2D230037026F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -310,6 +316,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F615F6441DAC8B4E00C5F7FD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F615F6451DAC8B7400C5F7FD /* Macro.swift */,
+			);
+			path = Tool;
+			sourceTree = SOURCE_ROOT;
+		};
 		F65D23D01DAA2D220037026F = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +348,7 @@
 		F65D23DB1DAA2D230037026F /* HPY9Pasture */ = {
 			isa = PBXGroup;
 			children = (
+				F615F6441DAC8B4E00C5F7FD /* Tool */,
 				F6DDB0361DAB905C00C44814 /* Home */,
 				F6DDB02E1DAB905C00C44814 /* Community */,
 				F6DDB0321DAB905C00C44814 /* Convenience */,
@@ -791,6 +806,8 @@
 			isa = PBXGroup;
 			children = (
 				F6DDB0461DAB90A300C44814 /* HPYLoginController.swift */,
+				F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */,
+				F615F6491DACD2E100C5F7FD /* HPYRegisterController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -941,9 +958,11 @@
 				F6B5D5E71DAB40AB00D2DB0E /* base64.m in Sources */,
 				F6B5D5751DAB343600D2DB0E /* HPYRootController.swift in Sources */,
 				F6B5D5EB1DAB40AB00D2DB0E /* NSDataEx.m in Sources */,
+				F615F6481DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift in Sources */,
 				F6B5D5EA1DAB40AB00D2DB0E /* MD5DataSigner.m in Sources */,
 				F6DDB0511DAB974300C44814 /* HPYVideoController.swift in Sources */,
 				F6B5D5EE1DAB40AB00D2DB0E /* RSADataVerifier.m in Sources */,
+				F615F64A1DACD2E100C5F7FD /* HPYRegisterController.swift in Sources */,
 				F6DDB0491DAB91FF00C44814 /* HPYCommunityCtrler.swift in Sources */,
 				F6DDB04F1DAB969700C44814 /* HPYMineController.swift in Sources */,
 				F6B5D5E81DAB40AB00D2DB0E /* DataSigner.m in Sources */,
@@ -953,6 +972,7 @@
 				F6B5D5E61DAB40AB00D2DB0E /* Order.m in Sources */,
 				F6DDB0471DAB90A300C44814 /* HPYLoginController.swift in Sources */,
 				F65D23DD1DAA2D230037026F /* AppDelegate.swift in Sources */,
+				F615F6461DAC8B7400C5F7FD /* Macro.swift in Sources */,
 				F6B5D5E91DAB40AB00D2DB0E /* DataVerifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -989,6 +1009,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1040,6 +1061,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

@@ -19,7 +19,14 @@ class HPYHomeController: UIViewController {
         configureUI()
         // Do any additional setup after loading the view.
     }
-    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+    }
     func configureUI(){
         let logBtn = UIButton(type: .Custom)
         let registerBtn = UIButton(type: .Custom)
@@ -32,7 +39,20 @@ class HPYHomeController: UIViewController {
         logBtn.layer.borderWidth = 0.5
         registerBtn.layer.borderWidth = 0.5
         
+        logBtn.addTarget(self, action: #selector(clickedLogBtn), forControlEvents: .TouchUpInside)
+        registerBtn.addTarget(self, action: #selector(clickedRegister), forControlEvents: .TouchUpInside)
+        
         view.addSubview(logBtn)
         view.addSubview(registerBtn)
+    }
+    func clickedLogBtn(btn:UIButton){
+        let logVC = HPYLoginController()
+        logVC.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(logVC, animated: true)
+    }
+    func clickedRegister(btn:UIButton){
+        let registerVC = HPYRegisterController()
+        registerVC.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(registerVC, animated: true)
     }
 }
