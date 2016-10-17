@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Alamofire" "${PODS_ROOT}/Headers/Public/BaiduMapKit" "${PODS_ROOT}/Headers/Public/Kingfisher" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/RxSwift" "${PODS_ROOT}/Headers/Public/SnapKit" "${PODS_ROOT}/Headers/Public/Spring" "${PODS_ROOT}/Headers/Public/SwiftyJSON" "${PODS_ROOT}/Headers/Public/YYCache"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Alamofire" -isystem "${PODS_ROOT}/Headers/Public/BaiduMapKit" -isystem "${PODS_ROOT}/Headers/Public/Kingfisher" -isystem "${PODS_ROOT}/Headers/Public/MJRefresh" -isystem "${PODS_ROOT}/Headers/Public/RxSwift" -isystem "${PODS_ROOT}/Headers/Public/SnapKit" -isystem "${PODS_ROOT}/Headers/Public/Spring" -isystem "${PODS_ROOT}/Headers/Public/SwiftyJSON" -isystem "${PODS_ROOT}/Headers/Public/YYCache"
+OTHER_LDFLAGS = $(inherited) -l"sqlite3" -l"sqlite3.0" -l"stdc++.6.0.9" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
+PODS_ROOT = ${SRCROOT}/Pods

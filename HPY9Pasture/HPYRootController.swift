@@ -45,6 +45,7 @@ class HPYRootController: UITabBarController {
         setViewControllers([homeNav,communityNav,convenienceNav,videoNav,mineNav], animated: true)
     }
     func setTabbarItemAttribute(controller:UIViewController,normalImageName:String,selectedImageName:String){
+        
         controller.tabBarItem.image = UIImage(named: normalImageName)?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         controller.tabBarItem.selectedImage = UIImage(named: selectedImageName)?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         controller.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor(red: 53/255, green: 188/255, blue: 123/255, alpha: 1)], forState: .Selected)
