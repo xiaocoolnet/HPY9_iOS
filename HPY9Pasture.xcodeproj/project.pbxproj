@@ -42,7 +42,6 @@
 		F6B5D6041DAB448000D2DB0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6031DAB448000D2DB0E /* UIKit.framework */; };
 		F6B5D6061DAB448800D2DB0E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6051DAB448800D2DB0E /* Security.framework */; };
 		F6B5D6081DAB449B00D2DB0E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6071DAB449B00D2DB0E /* libz.tbd */; };
-		F6B5D60C1DAB44BF00D2DB0E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D60B1DAB44BF00D2DB0E /* UserNotifications.framework */; };
 		F6B5D6131DAB466A00D2DB0E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6121DAB466A00D2DB0E /* CoreMotion.framework */; };
 		F6B5D6151DAB467300D2DB0E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6141DAB467300D2DB0E /* CoreText.framework */; };
 		F6B5D6171DAB468200D2DB0E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5D6161DAB468200D2DB0E /* QuartzCore.framework */; };
@@ -280,7 +279,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6B5D60C1DAB44BF00D2DB0E /* UserNotifications.framework in Frameworks */,
 				F6B5D6191DAB469A00D2DB0E /* libc++.tbd in Frameworks */,
 				F6B5D6171DAB468200D2DB0E /* QuartzCore.framework in Frameworks */,
 				F6B5D6681DAB730900D2DB0E /* AliyunPlayerSDK.framework in Frameworks */,
