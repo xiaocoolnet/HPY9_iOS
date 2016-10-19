@@ -18,6 +18,7 @@ class HPYRootController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         configerUI()
         // Do any additional setup after loading the view.
     }
@@ -30,11 +31,11 @@ class HPYRootController: UITabBarController {
         mine.title = "我的"
         video.title = "视频大厅"
         //controller
-        setTabbarItemAttribute(community, normalImageName: "", selectedImageName: "社区")
-        setTabbarItemAttribute(convenience, normalImageName: "", selectedImageName: "便民")
-        setTabbarItemAttribute(home, normalImageName: "", selectedImageName: "首页")
-        setTabbarItemAttribute(mine, normalImageName: "", selectedImageName: "我的")
-        setTabbarItemAttribute(video, normalImageName: "", selectedImageName: "视频大厅")
+        setTabbarItemAttribute(community, normalImageName: "community", selectedImageName: "community拷贝")
+        setTabbarItemAttribute(convenience, normalImageName: "Convenience", selectedImageName: "Convenience拷贝")
+        setTabbarItemAttribute(home, normalImageName: "homepage拷贝", selectedImageName: "homepage")
+        setTabbarItemAttribute(mine, normalImageName: "my", selectedImageName: "my拷贝")
+        setTabbarItemAttribute(video, normalImageName: "video", selectedImageName: "video拷贝")
         //nav
         let communityNav = UINavigationController(rootViewController: community)
         let convenienceNav = UINavigationController(rootViewController: convenience)
@@ -50,5 +51,6 @@ class HPYRootController: UITabBarController {
         controller.tabBarItem.selectedImage = UIImage(named: selectedImageName)?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         controller.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor(red: 53/255, green: 188/255, blue: 123/255, alpha: 1)], forState: .Selected)
         controller.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.blackColor()],forState: .Normal)
+        controller.tabBarItem.setTitleTextAttributes([NSFontAttributeName:UIFont.systemFontOfSize(13)], forState: .Normal)
     }
 }
