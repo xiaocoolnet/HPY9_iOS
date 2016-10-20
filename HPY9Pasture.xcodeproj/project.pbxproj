@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77036BCC1DB85ED500E107BB /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77036BCB1DB85ED500E107BB /* AliyunPlayerSDK.framework */; };
 		EF4AA863B17A114C8FB23355 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC8F02A3B680CBF3775C17 /* Pods.framework */; };
 		F615F6461DAC8B7400C5F7FD /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6451DAC8B7400C5F7FD /* Macro.swift */; };
 		F615F6481DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */; };
@@ -57,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		12999BDEC094B4968B47DB1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		77036BCB1DB85ED500E107BB /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
+		77036BCD1DB85FFC00E107BB /* HPY9Pasture－Bridging－Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPY9Pasture－Bridging－Header.h"; sourceTree = "<group>"; };
 		AD6CE58FCA79C95874BDE2E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F615F6451DAC8B7400C5F7FD /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 		F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYFgetPasswordCtrler.swift; sourceTree = "<group>"; };
@@ -290,6 +293,7 @@
 				F6B5D6021DAB447800D2DB0E /* Foundation.framework in Frameworks */,
 				F6B5D6001DAB446F00D2DB0E /* CoreGraphics.framework in Frameworks */,
 				F6B5D5FE1DAB446300D2DB0E /* SystemConfiguration.framework in Frameworks */,
+				77036BCC1DB85ED500E107BB /* AliyunPlayerSDK.framework in Frameworks */,
 				F6B5D5FC1DAB445A00D2DB0E /* CoreTelephony.framework in Frameworks */,
 				F6B5D5FA1DAB443600D2DB0E /* CoreFoundation.framework in Frameworks */,
 				F6B5D5F81DAB442F00D2DB0E /* CFNetwork.framework in Frameworks */,
@@ -355,6 +359,7 @@
 				F6DDB0421DAB905C00C44814 /* Wellcome */,
 				F65D23DC1DAA2D230037026F /* AppDelegate.swift */,
 				F6B5D5741DAB343600D2DB0E /* HPYRootController.swift */,
+				77036BCD1DB85FFC00E107BB /* HPY9Pasture－Bridging－Header.h */,
 				F65D23E31DAA2D230037026F /* Assets.xcassets */,
 				F65D23E51DAA2D230037026F /* LaunchScreen.storyboard */,
 				F65D23E81DAA2D230037026F /* Info.plist */,
@@ -508,6 +513,7 @@
 		F6B5D5F61DAB442F00D2DB0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				77036BCB1DB85ED500E107BB /* AliyunPlayerSDK.framework */,
 				F6B5D61A1DAB46DC00D2DB0E /* openssl */,
 				F6B5D6181DAB469A00D2DB0E /* libc++.tbd */,
 				F6B5D6161DAB468200D2DB0E /* QuartzCore.framework */,
@@ -1096,6 +1102,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AliPay",
 					"$(PROJECT_DIR)/AliplayLib",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AliPay\"";
 				INFOPLIST_FILE = HPY9Pasture/Info.plist;
@@ -1109,6 +1116,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xiaocool.HPY9Pasture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HPY9Pasture/HPY9Pasture－Bridging－Header.h";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
@@ -1123,6 +1131,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AliPay",
 					"$(PROJECT_DIR)/AliplayLib",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AliPay\"";
 				INFOPLIST_FILE = HPY9Pasture/Info.plist;
@@ -1136,6 +1145,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xiaocool.HPY9Pasture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HPY9Pasture/HPY9Pasture－Bridging－Header.h";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
