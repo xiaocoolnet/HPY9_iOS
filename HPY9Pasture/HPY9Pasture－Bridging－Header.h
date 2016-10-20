@@ -9,5 +9,5 @@
 #ifndef HPY9Pasture_Bridging_Header_h
 #define HPY9Pasture_Bridging_Header_h
 
-//#import <AliyunPlayerSDK/AliVcMediaPlayer.h>
+#import <AliyunPlayerSDK/AliVcMediaPlayer.h>
 #endif /* HPY9Pasture_Bridging_Header_h */
