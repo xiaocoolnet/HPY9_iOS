@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		77036BCC1DB85ED500E107BB /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77036BCB1DB85ED500E107BB /* AliyunPlayerSDK.framework */; };
+		7765E31E1DB9AA020037437A /* HPYHomeCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765E31D1DB9AA020037437A /* HPYHomeCareViewController.swift */; };
+		7765E3211DB9B0DE0037437A /* MainImageAndTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765E3201DB9B0DE0037437A /* MainImageAndTextButton.swift */; };
+		7765E3241DB9B3C40037437A /* UIBounceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765E3231DB9B3C40037437A /* UIBounceButton.m */; };
+		7765E3291DB9C1100037437A /* ImageAndTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765E3281DB9C1100037437A /* ImageAndTextTableViewCell.swift */; };
 		EF4AA863B17A114C8FB23355 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC8F02A3B680CBF3775C17 /* Pods.framework */; };
 		F615F6461DAC8B7400C5F7FD /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6451DAC8B7400C5F7FD /* Macro.swift */; };
 		F615F6481DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */; };
@@ -60,6 +64,11 @@
 		12999BDEC094B4968B47DB1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		77036BCB1DB85ED500E107BB /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
 		77036BCD1DB85FFC00E107BB /* HPY9Pasture－Bridging－Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPY9Pasture－Bridging－Header.h"; sourceTree = "<group>"; };
+		7765E31D1DB9AA020037437A /* HPYHomeCareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYHomeCareViewController.swift; sourceTree = "<group>"; };
+		7765E3201DB9B0DE0037437A /* MainImageAndTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainImageAndTextButton.swift; sourceTree = "<group>"; };
+		7765E3221DB9B3C40037437A /* UIBounceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBounceButton.h; sourceTree = "<group>"; };
+		7765E3231DB9B3C40037437A /* UIBounceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBounceButton.m; sourceTree = "<group>"; };
+		7765E3281DB9C1100037437A /* ImageAndTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAndTextTableViewCell.swift; sourceTree = "<group>"; };
 		AD6CE58FCA79C95874BDE2E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F615F6451DAC8B7400C5F7FD /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 		F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYFgetPasswordCtrler.swift; sourceTree = "<group>"; };
@@ -318,6 +327,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7765E31F1DB9B0A80037437A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7765E3221DB9B3C40037437A /* UIBounceButton.h */,
+				7765E3231DB9B3C40037437A /* UIBounceButton.m */,
+				7765E3201DB9B0DE0037437A /* MainImageAndTextButton.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7765E3271DB9C1100037437A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7765E3281DB9C1100037437A /* ImageAndTextTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F615F6441DAC8B4E00C5F7FD /* Tool */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +377,7 @@
 		F65D23DB1DAA2D230037026F /* HPY9Pasture */ = {
 			isa = PBXGroup;
 			children = (
+				7765E31F1DB9B0A80037437A /* Base */,
 				F615F6441DAC8B4E00C5F7FD /* Tool */,
 				F6DDB0361DAB905C00C44814 /* Home */,
 				F6DDB02E1DAB905C00C44814 /* Community */,
@@ -705,7 +733,7 @@
 			children = (
 				F6DDB0371DAB905C00C44814 /* Controller */,
 				F6DDB0381DAB905C00C44814 /* Model */,
-				F6DDB0391DAB905C00C44814 /* View */,
+				7765E3271DB9C1100037437A /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -714,6 +742,7 @@
 			isa = PBXGroup;
 			children = (
 				F6DDB04C1DAB930F00C44814 /* HPYHomeController.swift */,
+				7765E31D1DB9AA020037437A /* HPYHomeCareViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -723,13 +752,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		F6DDB0391DAB905C00C44814 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		F6DDB03A1DAB905C00C44814 /* Mine */ = {
@@ -865,7 +887,6 @@
 				TargetAttributes = {
 					F65D23D81DAA2D220037026F = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = H58LYH4V4T;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -963,13 +984,17 @@
 				F6B5D5751DAB343600D2DB0E /* HPYRootController.swift in Sources */,
 				F6B5D5EB1DAB40AB00D2DB0E /* NSDataEx.m in Sources */,
 				F615F6481DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift in Sources */,
+				7765E31E1DB9AA020037437A /* HPYHomeCareViewController.swift in Sources */,
 				F6B5D5EA1DAB40AB00D2DB0E /* MD5DataSigner.m in Sources */,
+				7765E3241DB9B3C40037437A /* UIBounceButton.m in Sources */,
+				7765E3291DB9C1100037437A /* ImageAndTextTableViewCell.swift in Sources */,
 				F6DDB0511DAB974300C44814 /* HPYVideoController.swift in Sources */,
 				F6B5D5EE1DAB40AB00D2DB0E /* RSADataVerifier.m in Sources */,
 				F615F64A1DACD2E100C5F7FD /* HPYRegisterController.swift in Sources */,
 				F6DDB0491DAB91FF00C44814 /* HPYCommunityCtrler.swift in Sources */,
 				F6DDB04F1DAB969700C44814 /* HPYMineController.swift in Sources */,
 				F6B5D5E81DAB40AB00D2DB0E /* DataSigner.m in Sources */,
+				7765E3211DB9B0DE0037437A /* MainImageAndTextButton.swift in Sources */,
 				F6DDB04B1DAB92CF00C44814 /* HPYConvenienceCtrler.swift in Sources */,
 				F6B5D5ED1DAB40AB00D2DB0E /* RSADataSigner.m in Sources */,
 				F6B5D5EC1DAB40AB00D2DB0E /* openssl_wrapper.m in Sources */,
@@ -1036,7 +1061,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1082,7 +1107,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1097,7 +1122,8 @@
 			baseConfigurationReference = AD6CE58FCA79C95874BDE2E4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H58LYH4V4T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1127,7 +1153,8 @@
 			baseConfigurationReference = 12999BDEC094B4968B47DB1A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H58LYH4V4T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

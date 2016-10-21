@@ -10,4 +10,5 @@
 #define HPY9Pasture_Bridging_Header_h
 
 #import <AliyunPlayerSDK/AliVcMediaPlayer.h>
+#import "UIBounceButton.h"
 #endif /* HPY9Pasture_Bridging_Header_h */

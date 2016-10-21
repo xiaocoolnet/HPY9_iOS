@@ -28,6 +28,12 @@ class HPYHomeController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
     func configureUI(){
+        
+        let homeCareButton = UIButton.init(frame: CGRectMake(50, 200, 60, 30))
+        homeCareButton.setTitle("居家养老", forState: .Normal)
+        homeCareButton.addTarget(self, action: #selector(self.homeCareButtonAction), forControlEvents: .TouchUpInside)
+        homeCareButton.backgroundColor = UIColor.brownColor()
+        
         let logBtn = UIButton(type: .Custom)
         let registerBtn = UIButton(type: .Custom)
         logBtn.setTitle("登陆", forState: .Normal)
@@ -41,10 +47,17 @@ class HPYHomeController: UIViewController {
         
         logBtn.addTarget(self, action: #selector(clickedLogBtn), forControlEvents: .TouchUpInside)
         registerBtn.addTarget(self, action: #selector(clickedRegister), forControlEvents: .TouchUpInside)
-        
+        view.addSubview(homeCareButton)
         view.addSubview(logBtn)
         view.addSubview(registerBtn)
     }
+    //MARK:------Action
+    func homeCareButtonAction(){
+        let homeCareViewController = HPYHomeCareViewController()
+        homeCareViewController.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(homeCareViewController, animated: true)
+    }
+    
     func clickedLogBtn(btn:UIButton){
         let logVC = HPYLoginController()
         logVC.hidesBottomBarWhenPushed = true
