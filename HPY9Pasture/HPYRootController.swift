@@ -49,7 +49,7 @@ class HPYRootController: UITabBarController {
         
         controller.tabBarItem.image = UIImage(named: normalImageName)?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         controller.tabBarItem.selectedImage = UIImage(named: selectedImageName)?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
-        controller.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor(red: 53/255, green: 188/255, blue: 123/255, alpha: 1)], forState: .Selected)
+        controller.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:NavColor], forState: .Selected)
         controller.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.blackColor()],forState: .Normal)
         controller.tabBarItem.setTitleTextAttributes([NSFontAttributeName:UIFont.systemFontOfSize(13)], forState: .Normal)
     }
