@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		089B0DF5ECBE5347CF54D81D /* Pods_HPY9Pasture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C4D827CAD12D1A69B24984 /* Pods_HPY9Pasture.framework */; };
 		77036BCC1DB85ED500E107BB /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77036BCB1DB85ED500E107BB /* AliyunPlayerSDK.framework */; };
 		7765E31E1DB9AA020037437A /* HPYHomeCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765E31D1DB9AA020037437A /* HPYHomeCareViewController.swift */; };
 		7765E3211DB9B0DE0037437A /* MainImageAndTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765E3201DB9B0DE0037437A /* MainImageAndTextButton.swift */; };
 		7765E3241DB9B3C40037437A /* UIBounceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765E3231DB9B3C40037437A /* UIBounceButton.m */; };
 		7765E3291DB9C1100037437A /* ImageAndTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765E3281DB9C1100037437A /* ImageAndTextTableViewCell.swift */; };
-		EF4AA863B17A114C8FB23355 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC8F02A3B680CBF3775C17 /* Pods.framework */; };
 		F615F6461DAC8B7400C5F7FD /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6451DAC8B7400C5F7FD /* Macro.swift */; };
 		F615F6481DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */; };
 		F615F64A1DACD2E100C5F7FD /* HPYRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615F6491DACD2E100C5F7FD /* HPYRegisterController.swift */; };
@@ -61,7 +61,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12999BDEC094B4968B47DB1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		42C4D827CAD12D1A69B24984 /* Pods_HPY9Pasture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPY9Pasture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4690D03526BFE17666D07C96 /* Pods-HPY9Pasture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPY9Pasture.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPY9Pasture/Pods-HPY9Pasture.release.xcconfig"; sourceTree = "<group>"; };
 		77036BCB1DB85ED500E107BB /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
 		77036BCD1DB85FFC00E107BB /* HPY9Pasture－Bridging－Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPY9Pasture－Bridging－Header.h"; sourceTree = "<group>"; };
 		7765E31D1DB9AA020037437A /* HPYHomeCareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYHomeCareViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 		7765E3221DB9B3C40037437A /* UIBounceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBounceButton.h; sourceTree = "<group>"; };
 		7765E3231DB9B3C40037437A /* UIBounceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBounceButton.m; sourceTree = "<group>"; };
 		7765E3281DB9C1100037437A /* ImageAndTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAndTextTableViewCell.swift; sourceTree = "<group>"; };
-		AD6CE58FCA79C95874BDE2E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F615F6451DAC8B7400C5F7FD /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 		F615F6471DACBEE400C5F7FD /* HPYFgetPasswordCtrler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYFgetPasswordCtrler.swift; sourceTree = "<group>"; };
 		F615F6491DACD2E100C5F7FD /* HPYRegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYRegisterController.swift; sourceTree = "<group>"; };
@@ -284,6 +284,7 @@
 		F6DDB04C1DAB930F00C44814 /* HPYHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYHomeController.swift; sourceTree = "<group>"; };
 		F6DDB04E1DAB969700C44814 /* HPYMineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYMineController.swift; sourceTree = "<group>"; };
 		F6DDB0501DAB974300C44814 /* HPYVideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPYVideoController.swift; sourceTree = "<group>"; };
+		FE5E58497B15682BF639359B /* Pods-HPY9Pasture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPY9Pasture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPY9Pasture/Pods-HPY9Pasture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,18 +312,18 @@
 				F6B5D5EF1DAB40AB00D2DB0E /* libWeChatSDK.a in Frameworks */,
 				F6B5D5E51DAB40AB00D2DB0E /* libssl.a in Frameworks */,
 				F6B5D5F51DAB437D00D2DB0E /* jpush-ios-2.1.9.a in Frameworks */,
-				EF4AA863B17A114C8FB23355 /* Pods.framework in Frameworks */,
+				089B0DF5ECBE5347CF54D81D /* Pods_HPY9Pasture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		76FA7C782B54C6D7129E66D3 /* Pods */ = {
+		651E10131135E254E2849E5E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD6CE58FCA79C95874BDE2E4 /* Pods.debug.xcconfig */,
-				12999BDEC094B4968B47DB1A /* Pods.release.xcconfig */,
+				FE5E58497B15682BF639359B /* Pods-HPY9Pasture.debug.xcconfig */,
+				4690D03526BFE17666D07C96 /* Pods-HPY9Pasture.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -362,7 +363,7 @@
 				F65D23DB1DAA2D230037026F /* HPY9Pasture */,
 				F65D23DA1DAA2D230037026F /* Products */,
 				F6B5D5F61DAB442F00D2DB0E /* Frameworks */,
-				76FA7C782B54C6D7129E66D3 /* Pods */,
+				651E10131135E254E2849E5E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -559,6 +560,7 @@
 				F6B5D5F91DAB443600D2DB0E /* CoreFoundation.framework */,
 				F6B5D5F71DAB442F00D2DB0E /* CFNetwork.framework */,
 				F6DC8F02A3B680CBF3775C17 /* Pods.framework */,
+				42C4D827CAD12D1A69B24984 /* Pods_HPY9Pasture.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -859,12 +861,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F65D23EB1DAA2D230037026F /* Build configuration list for PBXNativeTarget "HPY9Pasture" */;
 			buildPhases = (
-				7A1079EC77F85603A886B16A /* Check Pods Manifest.lock */,
+				1EEBFF6451781308ED7C810D /* [CP] Check Pods Manifest.lock */,
 				F65D23D51DAA2D220037026F /* Sources */,
 				F65D23D61DAA2D220037026F /* Frameworks */,
 				F65D23D71DAA2D220037026F /* Resources */,
-				D36C7F8995D5637317AD3E8F /* Embed Pods Frameworks */,
-				8519E3E131159880F0439131 /* Copy Pods Resources */,
+				6FE5DA1AA8E18E1A1C208C18 /* [CP] Embed Pods Frameworks */,
+				3EF161359D5711F29F21F680 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -927,49 +929,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7A1079EC77F85603A886B16A /* Check Pods Manifest.lock */ = {
+		1EEBFF6451781308ED7C810D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8519E3E131159880F0439131 /* Copy Pods Resources */ = {
+		3EF161359D5711F29F21F680 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPY9Pasture/Pods-HPY9Pasture-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D36C7F8995D5637317AD3E8F /* Embed Pods Frameworks */ = {
+		6FE5DA1AA8E18E1A1C208C18 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPY9Pasture/Pods-HPY9Pasture-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1119,7 +1121,7 @@
 		};
 		F65D23EC1DAA2D230037026F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD6CE58FCA79C95874BDE2E4 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = FE5E58497B15682BF639359B /* Pods-HPY9Pasture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1150,7 +1152,7 @@
 		};
 		F65D23ED1DAA2D230037026F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12999BDEC094B4968B47DB1A /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4690D03526BFE17666D07C96 /* Pods-HPY9Pasture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
